@@ -1,0 +1,163 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins';
+}
+section{
+  width: 1160px;
+  margin: 0 auto;
+}
+/* Header */
+header{
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  background-color: #8fb900;
+  color: #fff;
+}
+header .content{
+  width: 1160px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header h1{
+  font-size: 22px;
+}
+header a{
+  font-size: 18px;
+  color: #fff;
+  text-decoration: none;
+  border: 1px solid #fff;
+  padding: 12px;
+}
+/* FIN HEADER */
+
+/* SECTION MAIN IMAGE */
+.main-image{
+  position: relative;
+  margin-top: 80px;
+}
+.main-image div{
+  background-color: rgba(185, 0, 50, 0.40);
+  height: 77px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 17px;
+}
+.main-image p{
+  color: #fff;
+  font-size: 15px;
+}
+/* FIN SECTION MAIN IMAGE */
+
+/* SECTION ALL CHOICE */
+.all-choice{
+  margin-top: 80px;
+}
+.all-choice h1{
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+.all-choice div{
+  height: 365px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.all-choice .case{
+  height: 363px;
+  width: 276px;
+  border: 1px solid #b90032;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  align-content: baseline;
+  position: relative;
+}
+.all-choice .price{
+  height: 77px;
+  width: 77px;
+  border-radius: 50%;
+  background-color: #b90032;
+  color: #fff;
+  position: absolute;
+  top: 9;
+  right: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.all-choice h4{
+  display: flex;
+  align-items: flex-start;
+  color: #b90032;
+  padding: 9px 8px;
+}
+.all-choice p{
+  padding: 0 9px;
+  font-size: 13px;
+}
+.all-choice a{
+  width: 260px;
+  height: 50px;
+  background-color: #b90032;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 9px;
+  color: #fff;
+  text-decoration: none;
+}
+/* FIN SECTION ALL CHOICE */
+
+/* SECTION ENTREPRISE */
+.our-compagny{
+  display: flex;
+  flex-wrap: nowrap;
+  margin-top: 80px;
+}
+.our-compagny div{
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 17px;
+}
+.our-compagny p{
+  font-size: 15px;
+}
+.our-compagny h4{
+  font-size: 17px;
+  font-weight: bold;
+}
+/* END SECTION ENTREPRISE */
+
+/* FOOTER */
+footer{
+  background-color: #8fb900;
+  margin-top: 88px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer div{
+  width: 1160px;
+  display: flex;
+  justify-content: space-between;
+}
+footer h2{
+  font-size: 20px;
+  color: #fff;
+}
+footer a{
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+  margin: 0 5px;
+}
